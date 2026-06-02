@@ -1,0 +1,64 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 1300px;
+}
+.home-title{
+    margin-top: 334px;
+    font-family: "Sour Gummy", sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+}
+.home-link{
+    margin-top: 500px;
+    display: flex;
+    align-items: center;
+flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+        padding: 55px 32px;
+        width: 150px;
+        height: 150px;
+    background: #1d94af;
+    transition: background 0.3s ease-in-out;
+}
+.home-link:hover{
+    background: #107288;
+}
+.home-download{
+font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+.home-play{
+font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33333;
+    color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+.home-section{
+    background-image: url("/img/home/desk.png");
+    height: 1200px;
+}
+.home-title{
+    margin-top: 210px;
+    width: 636px;
+    margin-left: auto;
+    margin-right: auto;
+font-size: 96px;
+}
+.home-link{
+    margin-top: 380px;
+} 
+}
