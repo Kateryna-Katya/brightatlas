@@ -82,3 +82,39 @@ width: 1012px;
         padding: 75px 106px 75px 98px;
     }
 }
+/* Ticker */
+.ticker {
+    width: 100%;
+    overflow: hidden;
+    background: #1d94af;
+    padding: 24px 0;
+}
+
+.ticker-track {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: max-content;
+    animation: marquee 15s linear infinite;
+}
+
+.ticker-track span {
+    flex-shrink: 0;
+font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+    white-space: nowrap;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
