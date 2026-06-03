@@ -6,7 +6,7 @@
     height: 1300px;
 }
 .home-title{
-    margin-top: 334px;
+    margin-top: 350px;
     font-family: "Sour Gummy", sans-serif;
         font-weight: 700;
         font-size: 48px;
@@ -61,4 +61,24 @@ font-size: 96px;
 .home-link{
     margin-top: 380px;
 } 
+}
+/* About */
+.about-wrapper{
+    background-image: url("/img/about/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 345px;
+        height: 534px;
+        padding: 59px 25px;
+    font-size: 24px;
+    line-height: 1.33333;
+}
+@media only screen and (min-width: 1440px) {
+.about-wrapper {
+        background-image: url("/img/about/desk.png");
+width: 1012px;
+    height: 310px;
+        padding: 75px 106px 75px 98px;
+    }
 }
