@@ -4,18 +4,26 @@
     text-align: left;
 
 }
+.policy-title-container{
+    background: #663090;
+    height: 420px;
+    padding-top: 212px;
 
-.privacy-title {
-    font-family: "Baloo 2", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.5;
-    text-align: center;
-    color: #fedc28;
-    margin-top: 70px;
-    margin-bottom: 30px;
 }
+.privacy-title {
+font-family: "Sour Gummy", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
 
+}
+.policy-container{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
 .text-container {
     display: flex;
     flex-direction: column;
@@ -23,24 +31,15 @@
 }
 
 .policy-subtitle {
-    font-family: "Plus Jakarta Sans", sans-serif;
+font-family: "Sour Gummy", sans-serif;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #342e4f;
-    margin-top: 20px;
+    font-size: 36px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #663090;
+    margin-top: 64px;
+    margin-bottom: 32px;
     text-align: left;
-}
-
-.article {
-    font-family: "Space Mono", sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.36;
-    letter-spacing: -0.04em;
-    color: #fefefe;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 
@@ -61,14 +60,16 @@
 .policy-list {
     list-style-type: disc;
     padding-left: 20px;
+    font-weight: 700;
 }
 
 .underline {
-    color: #3d6dff;
+text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 
 .text {
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 
@@ -78,7 +79,13 @@
 
 @media only screen and (min-width: 1440px) {
     .policy-container {
-        padding-left: 180px;
-        padding-right: 180px;
+        padding-left: 292px;
+        padding-right: 292px;
     }
+.privacy-title{
+font-size: 64px;
+}
+.policy-subtitle{
+    font-size: 48px;
+}
 }
