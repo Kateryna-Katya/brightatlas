@@ -118,3 +118,85 @@ font-family: "Quicksand", sans-serif;
         transform: translateX(-50%);
     }
 }
+/* Discover the Features That Set Atlas Game Apart */
+.discover-container{
+    position: relative;
+padding-bottom: 400px;
+}
+.discover-text{
+font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+}
+.features-list{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.features-item{
+border-radius: 24px;
+    padding: 24px;
+    width: 343px;
+    height: auto;
+background: #fff;
+    display: flex;
+        flex-direction: column;
+align-items: center;
+        gap: 24px;
+}
+.features-wrapper{
+    position: absolute;
+    width: 375px;
+        height: 338px;
+background-image: url("/img/discover/mob.png");
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+bottom: 20px;
+left: 0;
+padding: 79px 12px 79px 20px;
+    font-size: 28px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+.discover-container{
+    position: relative;
+padding-bottom: 900px;
+}
+.discover-container h2{
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.discover-text{
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.features-list{
+    width: 966px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.features-item{
+width: 306px;
+    height: 270px;
+}
+.f4{
+height: 294px;
+}
+.features-wrapper{
+width: 828px;
+    height: 737px;
+background-image: url("/img/discover/desk.png");
+bottom: 60px;
+left:20%;
+padding: 308px 96px;
+font-size: 32px;
+line-height: 1.25;
+}
+}

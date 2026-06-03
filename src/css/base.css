@@ -16,3 +16,8 @@ h2{
     color: #663090;
     margin-bottom: 24px;
 }
+@media only screen and (min-width: 1440px) {
+h2{
+font-size: 48px;
+}
+}
