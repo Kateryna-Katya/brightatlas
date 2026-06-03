@@ -42,7 +42,10 @@ font-family: "Sour Gummy", sans-serif;
     text-align: left;
 }
 
-
+.policy-number{
+    padding-left: 20px;
+    margin-top: 16px;
+}
 .policy-link {
     display: flex;
     align-items: start;
