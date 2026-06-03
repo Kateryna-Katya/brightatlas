@@ -200,3 +200,34 @@ font-size: 32px;
 line-height: 1.25;
 }
 }
+/* Dive Into Gameplay */
+.dive-list{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.dive-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+@media only screen and (min-width: 1440px) {
+  .dive-list{
+    margin-top: 48px;
+    width: 856px;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .dive-item{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+.dive-item p{
+    width: 416px;
+}
+.d2{
+    flex-direction: row-reverse;
+}
+}
