@@ -231,3 +231,56 @@ line-height: 1.25;
     flex-direction: row-reverse;
 }
 }
+/* Download and Start Your Journey */
+.start-section{
+    background-image: url("/img/start/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 876px;
+}
+.start-container{
+    padding-top: 137px;
+    padding-bottom: 137px;
+}
+.start-container h2{
+    color: #fff;
+    margin-bottom: 48px;
+}
+.start-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #fff;
+}
+.start-link{
+    margin-top: 48px;
+}
+@media only screen and (min-width: 1440px) {
+.start-section{
+    background-image: url("/img/start/desk.png");
+height: 783px;
+}
+.start-container{
+    padding-top: 212px;
+    padding-bottom: 157px;
+}
+.start-container h2{
+    color: #fff;
+    margin-bottom: 48px;
+}
+.start-text-wrapper{
+width: 856px;
+flex-direction: row;
+gap: 24px;
+align-items: start;
+margin-left: auto;
+margin-right: auto;
+}
+.start-text-wrapper p{
+    width: 416px;
+}
+.start-link{
+    margin-top: 48px;
+}
+}
